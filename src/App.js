@@ -9,6 +9,4 @@ function App() {
   );
 }
 
-// Teste no Git em tempo real
-
 export default App;
