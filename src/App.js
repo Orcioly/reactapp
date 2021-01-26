@@ -3,7 +3,7 @@ import List from "./components/List";
 import api from "./components/services/api";
 
 function App() {
-  const [username, setUsername] = useState("Orcioly");
+  const [username, setUsername] = useState("");
   const [userData, setUserData] = useState({});
 
   async function getUserGithubData() {
